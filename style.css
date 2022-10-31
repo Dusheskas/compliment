@@ -1,0 +1,36 @@
+body {
+   background-color: #F2E0BD;
+   color: #D90404;
+
+   font-family: 'Montserrat', sans-serif;
+
+   text-align: center;
+}
+
+button {
+   padding: 10px;
+   display: inline-block;
+
+   border: 1px solid #D90404;
+   background: transparent;
+   cursor: pointer;
+
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #D90404;
+}
+
+.container {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+
+
+   height: 90vh;
+}
+
+h1 {
+   font-size: 62px;
+}
